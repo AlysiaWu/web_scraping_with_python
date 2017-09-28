@@ -1,0 +1,17 @@
+*.pyc
+.project
+.pydevproject
+.settings/*
+/data/*
+/data
+*test.yaml
+*.DS_Store
+/build
+/dist
+/Cola.egg-info
+/.idea
+.*/.cache/*
+.cache
+history
+task
+log
