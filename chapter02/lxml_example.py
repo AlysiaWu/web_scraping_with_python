@@ -11,5 +11,5 @@ def scrape(html):
     return area
 
 if __name__ == '__main__':
-    html = urllib2.urlopen('http://example.webscraping.com/view/United-Kingdom-239').read()
-    print scrape(html)
+    html = urllib2.urlopen('http://example.webscraping.com/places/default/view/United-Kingdom-239').read()
+    print scrape(html)  #IE
