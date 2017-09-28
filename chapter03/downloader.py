@@ -20,7 +20,7 @@ class Downloader:
         self.proxies = proxies
         self.num_retries = num_retries
         self.opener = opener
-        self.cache = cache
+        self.cache = cache  # support multiple kinds of cache here, such as memory, file system, mongodb.
 
 
     def __call__(self, url):
