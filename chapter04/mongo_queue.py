@@ -11,7 +11,7 @@ class MongoQueue:
     >>> q.push(url) # add test URL
     >>> q.peek() == q.pop() == url # pop back this URL
     True
-    >>> q.repair() # immediate repair will do nothin
+    >>> q.repair() # immediate repair will do nothing
     >>> q.pop() # another pop should be empty
     >>> q.peek() 
     >>> import time; time.sleep(timeout) # wait for timeout
