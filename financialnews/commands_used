@@ -1,0 +1,8 @@
+scrapy startproject financialnews
+cd C:\Users\xiuzhu\dev\PyProjects\web_scraping_with_python\financialnews
+scrapy genspider news www.financialnews.com.cn --template=crawl
+scrapy shell http://www.financialnews.com.cn/hg/201709/t20170929_125445.html
+    response.css('div.content_title')
+    title_css = 'div.content_title'
+    response.css(title_css).extract()
+scrapy crawl news --output=news.csv

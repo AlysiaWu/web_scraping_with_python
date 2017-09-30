@@ -2,3 +2,5 @@ beautifulsoup4
 lxml
 cssselect
 pymongo
+scrapy
+pypiwin32
